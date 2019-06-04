@@ -30,6 +30,7 @@ namespace Maricoin
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             try {
+            //The magic formula. Thank you pannenkoek2012. Shoutouts to SimpleFlips
                 this.calcButton.Content = Int32.Parse(this.coinNo.Text) % 255;
             }
             catch
